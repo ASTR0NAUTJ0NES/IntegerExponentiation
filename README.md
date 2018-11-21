@@ -10,10 +10,10 @@
 	- run the program
 ## File list 
 	- integer_exponentiation.adb
-    integer_exponentiation.adb
-    integer_exponentiation.ali
-    integer_exponentiation.o
-    mydata.txt
+          integer_exponentiation.adb
+          integer_exponentiation.ali
+          integer_exponentiation.o
+          mydata.txt
   
 ## Copyright 
 	- Copyright © 2016 by Andrew Peyton Albanese
