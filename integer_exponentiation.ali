@@ -1,0 +1,37 @@
+V "GNAT Lib v2017"
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV SPARK_05
+
+U integer_exponentiation%b  integer_exponentiation.adb  aa42888a NE OO PK
+
+U integer_exponentiation%s  integer_exponentiation.ads  4a23a17d EE NE OO PK
+
+D integer_exponentiation.ads  20180323050654 4a23a17d integer_exponentiation%s
+D integer_exponentiation.adb  20180323050802 e06129f7 integer_exponentiation%b
+D system.ads		20170516105954 32a08138 system%s
+X 1 integer_exponentiation.ads
+1K9*Integer_Exponentiation 15l5 15e27 2|1b14 49l5 49t27
+3U14*Exponentiate 3>28 4>28 5<28 2|3b14 11l8 11t20 17s7
+3i28 Argument{integer} 2|3b28 9r29 17r21
+4i28 Exponent{natural} 2|4b28 8r27 18r21
+5i28 Result{integer} 2|5b28 7m7 9m10 9r20 19r21
+6V14*"**"{integer} 6>19 7>19 2|13b14 21l9 21t12
+6i19 Left{integer} 2|13b19 17r33
+7i19 Right{natural} 2|14b19 18r33
+10U14*Exponentiate 10>28 11>28 12<28 2|24b14 38l8 38t20 44s8
+10f28 Argument{float} 2|24b28 31r32 35r32 44r22
+11i28 Exponent{integer} 2|25b28 29r10 30r25 34r30 45r21
+12f28 Result{float} 2|26b28 28m7 31m13 31r23 35m13 35r23 46r21
+13V14*"**"{float} 13>19 14>19 2|40b14 48l9 48t12
+13f19 Left{float} 2|40b19 44r34
+14i19 Right{integer} 2|41b19 45r33
+X 2 integer_exponentiation.adb
+8i11 Counter{integer}
+15i7 Result{integer} 19m33 20r14
+30i14 Counter{integer}
+34i14 Counter{integer}
+42f7 Result{float} 46m33 47r14
+
